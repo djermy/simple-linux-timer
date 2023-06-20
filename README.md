@@ -19,3 +19,10 @@ to set up `speech dispatcher`, then run the festival server
 ```
 festival --server
 ```
+
+## How To Use
+clone this repository, add main.py to `$PATH` and alias it as timer or similar. call function with,
+minutes you'd like to set it for. example:
+```
+timer 5
+```
