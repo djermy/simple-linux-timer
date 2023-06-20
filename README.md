@@ -2,6 +2,7 @@
 
 ## Setup
 This timer was made and tested with the `speech dispatcher` linux package, ensure you have it installed.
+
 *arch linux*
 ```
 sudo pacman -S speech-dispatcher
