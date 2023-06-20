@@ -10,9 +10,11 @@ sudo pacman -S speech-dispatcher
 ```
 sudo apt install speech-dispatcher
 ```
-This was only tested with the `festival` package for `speech-dispatcher`. once both are installed, run ```
+This was only tested with the `festival` package for `speech-dispatcher`. once both are installed, run
+```
 spd-conf
 ```
-to set up `speech dispatcher`, then run the festival server ```
+to set up `speech dispatcher`, then run the festival server
+```
 festival --server
 ```
