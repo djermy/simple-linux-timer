@@ -10,7 +10,9 @@ sudo pacman -S speech-dispatcher espeak-ng
 ```
 sudo apt install speech-dispatcher espeak-ng
 ```
-
+run `spd-conf`
+Edit speech dispatcher config file in `~/.config/speech-dispatcher/speechd.conf`
+**uncomment** # DefaultModule espeak-ng
 
 ## How To Use
 * Clone this repository.
