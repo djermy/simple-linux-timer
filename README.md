@@ -1,28 +1,23 @@
 # simple_linux_timer
 
 ## Setup
-This timer was made and tested with the `speech dispatcher` linux package, ensure you have it installed.
-
+This timer requires `speech-dispatcher` and the defualt voice is `espeak-ng`
 *arch linux*
 ```
-sudo pacman -S speech-dispatcher
+sudo pacman -S speech-dispatcher espeak-ng
 ```
 *ubuntu*
 ```
-sudo apt install speech-dispatcher
-```
-This was only tested with the `festival` package for `speech-dispatcher`. once both are installed, run
-```
-spd-conf
-```
-to set up `speech dispatcher`, then run the festival server
-```
-festival --server
+sudo apt install speech-dispatcher espeak-ng
 ```
 
+
 ## How To Use
-clone this repository, add main.py to `$PATH` and alias it as timer or similar. call function with,
-minutes you'd like to set it for. example:
-```
-timer 5
-```
+* Clone this repository.
+* Navigate to the cloned repository.
+* Run `python3 timer.py [MINS]`, example: `python3 timer 5`
+## Alternatively
+* Clone this repository.
+* Add timer.py to $PATH.
+* Alias timer.py by adding `alias timer="timer.py"` to `.bashrc`
+* Run `timer [MINS]`, example: `timer 5`
