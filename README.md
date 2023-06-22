@@ -29,4 +29,5 @@ python3 timer 5
 * Alias timer.py by adding `alias timer="timer.py"` to `.bashrc`
 * Run `timer [MINS]`, example:
 ```
-timer 5```
+timer 5
+```
